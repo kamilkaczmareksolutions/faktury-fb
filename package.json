@@ -1,0 +1,16 @@
+{
+  "name": "faktury-meta",
+  "version": "1.0.0",
+  "description": "Automatyczne pobieranie faktur z Meta Ads API i wysyłanie ich mailem.",
+  "main": "api/cron.js",
+  "scripts": {
+    "start": "node api/cron.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "date-fns": "^3.6.0",
+    "nodemailer": "^6.9.13"
+  },
+  "author": "",
+  "license": "ISC"
+} 
