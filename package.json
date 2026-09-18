@@ -12,5 +12,8 @@
     "nodemailer": "^9.1.1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "overrides": {
+    "form-data": "^4.0.6"
+  }
 }
